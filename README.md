@@ -122,8 +122,8 @@ Open the Task Manager and in the **Performance** tab check the **Virtualization*
 ## Sources
 
 * _French website_ - **Comment installer macOS Catalina 10.15 sur VirtualBox sur Windows?**  
-  https://www.tech2tech.fr/comment-installer-macos-catalina-10-15-sur-virtualbox-sur-windows
+  [https://www.tech2tech.fr/comment-installer-macos-catalina-10-15-sur-virtualbox-sur-windows](https://www.tech2tech.fr/comment-installer-macos-catalina-10-15-sur-virtualbox-sur-windows)
 * **How to change screen resolution of macOS on VirtualBox?**  
-  https://techsviewer.com/how-to-change-screen-resolution-of-macos-on-virtualbox
-* **How to increase the display memory to 256 MB under macOS Catalina on VirtualBox and change the screen resolution?**  
-  https://www.youtube.com/watch?v=gDwFdGUsBOo
+  [https://techsviewer.com/how-to-change-screen-resolution-of-macos-on-virtualbox](https://techsviewer.com/how-to-change-screen-resolution-of-macos-on-virtualbox)
+* **How to increase the display memory to 256 MB and change the screen resolution under macOS Catalina on VirtualBox?**  
+  [https://www.youtube.com/watch?v=gDwFdGUsBOo](https://www.youtube.com/watch?v=gDwFdGUsBOo)

@@ -1,0 +1,25 @@
+# From your Windows command prompt.
+# Replace `Virtual Machine` with the name of your virtual machine.
+# Replace `1920x1080` with your screen resolution.
+# Replace `256` with any video memory value.
+
+cd "C:/Program Files/Oracle/VirtualBox/"
+./VBoxManage.exe modifyvm "Virtual Machine" --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
+./VBoxManage.exe setextradata "Virtual Machine" "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "iMac11,3"
+./VBoxManage.exe setextradata "Virtual Machine" "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
+./VBoxManage.exe setextradata "Virtual Machine" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple"
+./VBoxManage.exe setextradata "Virtual Machine" "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
+./VBoxManage.exe setextradata "Virtual Machine" VBoxInternal2/EfiGraphicsResolution 1920x1080
+./VBoxManage.exe modifyvm "Virtual Machine" --vram 256
+
+
+# From the macOS Terminal application.
+# Replace `1920x1080` with your screen resolution.
+
+sudo /Library/Application\ Support/VMware\ Tools/vmware-resolutionSet 1920 1080
+
+
+# From the macOS Automator application.
+# Replace `password` with the macOS password.
+
+echo "password" | sudo -S /Library/Application\ Support/VMware\ Tools/vmware-resolutionSet 1920 1080

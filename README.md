@@ -58,13 +58,13 @@ Open the Task Manager and in the **Performance** tab check the **Virtualization*
 
   ```
   cd "C:/Program Files/Oracle/VirtualBox/"
-  ./VBoxManage.exe modifyvm "Virtual Machine" --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
-  ./VBoxManage.exe setextradata "Virtual Machine" "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "iMac11,3"
-  ./VBoxManage.exe setextradata "Virtual Machine" "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
-  ./VBoxManage.exe setextradata "Virtual Machine" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple"
-  ./VBoxManage.exe setextradata "Virtual Machine" "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
-  ./VBoxManage.exe setextradata "Virtual Machine" VBoxInternal2/EfiGraphicsResolution 1920x1080
-  ./VBoxManage.exe modifyvm "Virtual Machine" --vram 256
+  VBoxManage.exe modifyvm "Virtual Machine" --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
+  VBoxManage.exe setextradata "Virtual Machine" "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "iMac11,3"
+  VBoxManage.exe setextradata "Virtual Machine" "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
+  VBoxManage.exe setextradata "Virtual Machine" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple"
+  VBoxManage.exe setextradata "Virtual Machine" "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
+  VBoxManage.exe setextradata "Virtual Machine" VBoxInternal2/EfiGraphicsResolution 1920x1080
+  VBoxManage.exe modifyvm "Virtual Machine" --vram 256
   ```
 
   The values in the last two lines can be changed.

@@ -82,9 +82,9 @@ Open the Task Manager and in the **Performance** tab check the **Virtualization*
 * Continue and accept the terms of the software license agreement.
 * Select the hard drive and click **Install**.
 * **Important step**: during the automatic restart of the virtual machine, stop it.
-* Restart the virtual machine and spam the `Esc` key to open the BIOS.
+* Restart the virtual machine and  press the `Esc` key to open the BIOS.
 * Move to the **Boot Manager** menu with the arrow keys and select **EFI Internal Shell**.
-* A few random yellow, gray and white texts should appear until it gets to `Shell> _`.
+* A few random yellow, gray and white texts should appear. Press `Esc` and it should get to `Shell> _`.
 * Type `install.nsh` and press `Enter`.
 * After a few moments, you will be on the macOS Catalina configuration pages.
 * Follow the basic configuration steps and you will be on the macOS Catalina desktop as soon as possible.

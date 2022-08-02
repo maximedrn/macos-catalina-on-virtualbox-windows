@@ -42,7 +42,7 @@ Open the Task Manager and in the **Performance** tab check the **Virtualization*
 ## Configuration of the virtual machine
 
 * Run VirtualBox.
-* Create a new virtual machine. Enter the name you want, select **Mac OS X** for the type and **Mac OS X (64-bit)** or **Mac OS X (32-bit)**, depending on your computer architecture, for the version.
+* Create a new virtual machine. Enter the name you want, select **Mac OS X** for the type and **Mac OS X (64-bit)** for the version.
 * Select the amount of RAM. The minimum is **4096MB**, but for best performance, I recommend setting it to **8192MB**.
 * Create a **VDI** virtual disk with a **fixed size** and a minimum of **80GB**.
 * Click on your virtual machine and open the **Settings** options.
@@ -51,7 +51,7 @@ Open the Task Manager and in the **Performance** tab check the **Virtualization*
   * In **Display** ➜ **Screen**, set the **Graphics Controller** to **VMSVGA**.
   * In **USB**, enable the USB controller and check **USB 3.0 (xHCI) Controller**.
   * In **Storage**, click on the disk button with a green `+` and add the macOS Catalina ISO file.
-  * In **Storage**, click on the hard disk button with a green `+` and add the `boot.vmdk` file.
+  * In **Storage**, click on the hard disk button with a green `+` and add the `Boot.vmdk` file.
 * Click **OK** to confirm the changes.
 * Open a command prompt as administrator and type these commands:  
   _Make sure to replace the `Virtual Machine` with the name of your virtual machine._

@@ -16,7 +16,7 @@ Do not hesitate to open an exit in case of a problem or for any technical questi
 All the necessary files except VirtualBox, the Extension Pack and the macOS ISO are available by downloading the repository.
 
 * Download the [ISO of macOS Catalina 10.15](http://www.mediafire.com/file/2mwxpooe0da6z3n/Catalina_10.15.5.iso/file) (8.3GB).
-* Download the [VMWare Tools.iso](https://github.com/maximedrn/macos-catalina-on-virtualbox-windows/raw/master/VM%20Tools.iso) file.
+* Download the [VMware Tools.iso](https://github.com/maximedrn/macos-catalina-on-virtualbox-windows/raw/master/VMware%20Tools.iso) file.
 * Download the [Boot.vmdk](https://github.com/maximedrn/macos-catalina-on-virtualbox-windows/raw/master/Boot.vmdk) file.
 
 
@@ -94,7 +94,7 @@ Open the Task Manager and in the **Performance** tab check the **Virtualization*
 
 * Shut down the virtual machine.
 * Open the **Settings** options and in **Storage**, eject the macOS Catalina ISO file.  
-  Then click on the disk button with a green `+` and add the `VMWare Tools.iso` file.
+  Then click on the disk button with a green `+` and add the `VMware Tools.iso` file.
 * Restart the virtual machine.
 * Double-click on the VMWare Tools disk and click on **Install VMWare Tools**.
 * The extension should be blocked, so open the **Security and Privacy** section in the **System Preferences** and click **Open anyway**.
